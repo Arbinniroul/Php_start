@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to travel form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="my-10  justify-center flex gap-4 px-10 ">
+        <div class="bg-gray-200 shadow-xl rounded-md px-10 py-10 flex flex-col gap-3 w-[600px]">
+            <h1 class="text-3xl font-medium">Welcome to hackathon form</h1>
+
+            <p>Enter your details such about you and your team</p>
+            <form action="index.php" method="POST" class="flex flex-col gap-3">
+            <div class="flex" >
+                Name:
+                <input type="text" name="name" id="name" class="w-1/2">
+                Gender:
+                <input type="email" name="gender" class="w-1/2" id="gender">
+                
+            </div>
+            <div class="flex">
+               Password: <input type="Password" name="age" id="age" class="w-1/2">
+                Email: <input type="email" name="email" class="w-1/2" id="email">
+            </div>
+            <div>
+               Phone Number: <input type="phone" name="phone" id="phone">
+        
+            </div>
+            <textarea placeholder="Enter any information here" name="desc" id="desc" cols="30" rows="10">
+
+            </textarea>
+            <button class="px-2 py-2 bg-black text-white text-medium">Submit</button>
+            <button  class="px-2 py-2 bg-black text-white text-medium">Reset</button>
+
+        </form>
+        </div>
+      
+    </div>
+</body>
+</html>
